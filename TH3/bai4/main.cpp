@@ -24,13 +24,13 @@ int main() {
     date1--;
     cout << "Date 1 sau khi --: " << date1 << endl;
 
-    if (date1 == date2) {
-        cout << "Date 1 là Date 2" << endl;
-    } else if (date1 > date2) {
-        cout << "Date 1 sau Date 2" << endl;
-    } else {
-        cout << "Date 1 trước Date 2" << endl;
-    }
+    cout << "\nSo sanh date1 va date2:\n";
+    cout << "date1 == date2: " << (date1 == date2 ? "true" : "false") << endl;
+    cout << "date1 != date2: " << (date1 != date2 ? "true" : "false") << endl;
+    cout << "date1 > date2: " << (date1 > date2 ? "true" : "false") << endl;
+    cout << "date1 < date2: " << (date1 < date2 ? "true" : "false") << endl;
+    cout << "date1 >= date2: " << (date1 >= date2 ? "true" : "false") << endl;
+    cout << "date1 <= date2: " << (date1 <= date2 ? "true" : "false") << endl;
 
     return 0;
 }

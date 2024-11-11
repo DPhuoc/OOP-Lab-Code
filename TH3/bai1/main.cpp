@@ -26,13 +26,13 @@ int main() {
     }
 
     double real;
-    cout << "\nNhap so thuc: ";
+    cout << "\nNhap so: ";
     cin >> real;
 
-    cout << "\nCong voi so thuc: " << ps1 + real << endl;
-    cout << "Tru voi so thuc: " << ps1 - real << endl;
-    cout << "Nhan voi so thuc: " << ps1 * real << endl;
-    cout << "Chia voi so thuc: " << ps1 / real << endl;
+    cout << "\nCong voi so: " << ps1 + real << endl;
+    cout << "Tru voi so: " << ps1 - real << endl;
+    cout << "Nhan voi so: " << ps1 * real << endl;
+    cout << "Chia voi so: " << ps1 / real << endl;
 
     return 0;
 }

@@ -17,9 +17,9 @@ public:
     ThoiGian operator-(int Giay);
     ThoiGian operator+(ThoiGian a);
     ThoiGian operator-(ThoiGian a);
+
     ThoiGian operator++();
     ThoiGian operator--();
-
     bool operator==(ThoiGian a);
     bool operator!=(ThoiGian a);
     bool operator>=(ThoiGian a);
